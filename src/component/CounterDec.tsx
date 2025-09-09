@@ -1,4 +1,4 @@
-import { useCounterStore } from "../Store/CounterStore"; 
+import { useCounterStore } from "../store/CounterStore"; 
 
 const CounterDec = () => { 
 
