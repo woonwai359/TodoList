@@ -1,4 +1,4 @@
-import useCourseStore from "../store/useCourseStore";
+import { useCourseStore } from "../store/CounterStore.ts";
 
 interface DropButtonProps {
   code: string;
