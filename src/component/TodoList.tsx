@@ -1,5 +1,5 @@
 import useTodoStore from "../store/useTodoStore";
-import TodoItem from "./TodoItem";
+import TodoItem from "./Todoitem";
 
 export default function TodoList() {
   const todos = useTodoStore((state) => state.todos);
