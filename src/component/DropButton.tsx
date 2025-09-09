@@ -1,11 +1,11 @@
-import { useCourseStore } from "../store/CounterStore.ts";
+import { useCounterStore } from "../store/CounterStore.ts";
 
 interface DropButtonProps {
   code: string;
 }
 
 export default function DropButton({ code }: DropButtonProps) {
-  const dropCourse = useCourseStore((state) => state.dropCourse);
+  const dropCourse = useCounterStore((state) => state.dropCourse);
 
   return (
     <button
